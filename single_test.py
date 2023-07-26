@@ -12,7 +12,7 @@ class FirstSampleTest(unittest.TestCase):
     # setUp runs before each test case and 
     def setUp(self):
         desired_caps = {
-            "build": 'PyunitTest sample build',  # Change your build name here
+            "build": 'LT_BUILD_NAME',  # Change your build name here
             "name": 'Py-unittest',  # Change your test name here
             "platform": 'Windows 10',  # Change your OS version here
             "browserName": 'chrome',  # Change your browser here
