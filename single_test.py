@@ -6,6 +6,7 @@ from selenium import webdriver
 username = os.environ.get("LT_USERNAME")
 access_key = os.environ.get("LT_ACCESS_KEY")
 build = os.environ.get("LT_BUILD_NAME")
+print(build)
 
 
 class FirstSampleTest(unittest.TestCase):
